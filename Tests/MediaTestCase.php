@@ -12,8 +12,8 @@ use Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider;
 use Modules\Core\Providers\CoreServiceProvider;
 use Modules\Media\Providers\MediaServiceProvider;
 use Orchestra\Testbench\TestCase;
-use Pingpong\Modules\ModulesServiceProvider;
-use Pingpong\Modules\Providers\BootstrapServiceProvider;
+use Nwidart\Modules\ModulesServiceProvider;
+use Nwidart\Modules\Providers\BootstrapServiceProvider;
 
 abstract class MediaTestCase extends TestCase
 {
